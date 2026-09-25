@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { width: 320px; font-family: sans-serif; background: #0B1120; color: #E7ECF6; padding: 14px; }
+  input { width: 100%; box-sizing: border-box; padding: 8px; border-radius: 6px; border: 1px solid #29354F; background: #141C30; color: #E7ECF6; margin-bottom: 8px; }
+  button { width: 100%; padding: 8px; border: none; border-radius: 6px; background: #E7ECF6; color: #0B1120; font-weight: 600; cursor: pointer; }
+  .result { margin-top: 10px; font-size: 13px; }
+  .label { font-weight: 700; margin-bottom: 6px; }
+  li { color: #8A93A8; padding: 3px 0; }
+</style>
+</head>
+<body>
+  <input id="url" placeholder="paste a link to check" />
+  <button id="check">Scan link</button>
+  <div class="result" id="result"></div>
+
+  <script src="detector.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

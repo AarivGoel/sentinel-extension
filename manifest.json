@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Sentinel — Link Guard",
+  "version": "1.0",
+  "description": "Automatically warns you before you interact with a risky link.",
+  "permissions": ["webNavigation", "scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
